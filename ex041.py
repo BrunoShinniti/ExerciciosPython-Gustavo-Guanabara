@@ -13,11 +13,11 @@ dif = data.year - nasc
 
 if (dif <= 9):
     print('Categoria Mirim')
-if (dif > 9) and (dif <= 14):
+elif (dif > 9) and (dif <= 14):
     print('Categoria Infantil')
-if (dif > 14) and (dif <= 19):
+elif (dif > 14) and (dif <= 19):
     print('Categoria Junior')
-if (dif > 19) and (dif <= 20):
+elif (dif > 19) and (dif <= 20):
     print('Categoria Sênior')
-if (dif > 20):
+elif (dif > 20):
     print('Categoria Master')

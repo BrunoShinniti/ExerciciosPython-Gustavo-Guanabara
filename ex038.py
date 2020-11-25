@@ -6,8 +6,8 @@ svalor = int(input('Digite o segundo valor: '))
 if pvalor > svalor:
     print('O primeiro valor ({}) é o maior!'.format(pvalor))
 
-if pvalor < svalor:
+elif pvalor < svalor:
     print('O segundo valor ({}) é o maior!'.format(svalor))
 
-if pvalor == svalor:
+elif pvalor == svalor:
     print('Os valores ({}) são iguais!'.format(pvalor))

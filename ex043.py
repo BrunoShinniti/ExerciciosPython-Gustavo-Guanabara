@@ -12,11 +12,11 @@ imc = peso / (altura * altura)
 
 if imc < 18.5:
     print('IMC = {:.2f}......Abaixo do peso!'.format(imc))
-if 18.5 <= imc < 25:
+elif 18.5 <= imc < 25:
     print('IMC = {:.2f}......Peso Ideal!'.format(imc))
-if 25 <= imc < 30:
+elif 25 <= imc < 30:
     print('IMC = {:.2f}......Sobrepeso!'.format(imc))
-if 30 <= imc < 40:
+elif 30 <= imc < 40:
     print('IMC = {:.2f}......Obesidade'.format(imc))
-if imc >= 40:
+elif imc >= 40:
     print('IMC = {:.2f}......Obesidade Mórbida'.format(imc))

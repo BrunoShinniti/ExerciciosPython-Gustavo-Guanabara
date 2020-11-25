@@ -10,9 +10,9 @@ escolha = int(input('Digite uma opção:\n[1] - A Vista no Dinheiro\n[2] - A Vis
 
 if escolha == 1:
     print('Total de R$ {:.2f}.'.format(valor * .90))
-if escolha == 2:
+elif escolha == 2:
     print('Total de R$ {:.2f}.'.format(valor * .95))
-if escolha == 3:
+elif escolha == 3:
     print('Total de R$ {:.2f}.'.format(valor))
-if escolha == 4:
+elif escolha == 4:
     print('Total de R$ {:.2f}.'.format(valor * 1.2))
